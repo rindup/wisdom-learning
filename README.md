@@ -8,7 +8,7 @@ The condition if(arr[i].length() > maxlength) checks if the current token is the
 "The" and "cow" both are the smallest words since "The" is encountered first, it comes in the output.
 Then it return the hashmap as a key, value pair
 
-#WordProcessTest.java
+# WordProcessTest.java
 The class  WordProcessTest test for the longest and shortest word in a string and its length. 
 So I instantiate MessageUtil class and pass a message to it's constructor and then the method will process and return the hashmap from there..
 At present for this test I dont need to have any setup or tear down to do..
