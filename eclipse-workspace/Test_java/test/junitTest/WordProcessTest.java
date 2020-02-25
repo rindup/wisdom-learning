@@ -6,11 +6,11 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import msgTemp.MessageUtil;
+import processStrings.WordProcess;
 
-class MessageUtilTest {
-	String message = "The cow jumped over the moon";	
-	MessageUtil messageUtil = new MessageUtil(message);
+class WordProcessTest {
+	String textString = "The cow jumped over the moon";	
+	WordProcess wordProcess = new WordProcess(textString);
 
 	@BeforeEach
 	void setUp() throws Exception {
@@ -22,9 +22,9 @@ class MessageUtilTest {
 
 	@Test
 	void test() { 
-	    assertEquals("jumped", messageUtil.getwordList().get("longest").toString()); 
-	    assertEquals(6, messageUtil.getwordList().get("longest").toString().length());
-	    assertEquals("The", messageUtil.getwordList().get("shortest").toString());
-	    assertEquals(3, messageUtil.getwordList().get("shortest").toString().length());
+	    assertEquals("jumped", wordProcess.getwordList().get("longest").toString()); 
+	    assertEquals(6, wordProcess.getwordList().get("longest").toString().length());
+	    assertEquals("The", wordProcess.getwordList().get("shortest").toString());
+	    assertEquals(3, wordProcess.getwordList().get("shortest").toString().length());
 	}
 }

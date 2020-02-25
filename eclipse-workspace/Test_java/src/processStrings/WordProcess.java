@@ -1,22 +1,21 @@
-package msgTemp;
+package processStrings;
 
 import java.util.HashMap;
 
-public class MessageUtil {
+public class WordProcess {
 
-	   private String message;
+	   private String textString;
 
 	   //Constructor
-	   //@param message to be printed
-		
-	   public MessageUtil(String message){
-	      this.message = message;
+	   //@param textString		
+	   public WordProcess(String textString){
+	      this.textString = textString;
 	   }
 	      
-	   // prints the longest word
+	   // gets the longest and shortest word in a  hashMap
 	   public HashMap<String, String> getwordList(){
 	       HashMap<String, String> wordList = new HashMap<String, String>();
-	       String[] arr=message.split(" ");
+	       String[] arr=textString.split(" ");
 	        int i=0;
 	        int maxlength,minlength;
 	        maxlength=Integer.MIN_VALUE;
