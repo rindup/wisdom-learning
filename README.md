@@ -4,3 +4,5 @@ Once you can access my branch, you will be able to run the WordProcessTest.java 
 The assignment related README file is located at:
 https://github.com/rindup/wisdom-learning/blob/word_process_test_branch/README.md
 My branch with the code is at:https://github.com/rindup/wisdom-learning/tree/word_process_test_branch
+
+Thank you for taking your time to go through my code!
